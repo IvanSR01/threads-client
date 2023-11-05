@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  flex-wrap: wrap;
+  border-left: 1px solid #323232;
+  border-right: 1px solid #323232;
+  box-sizing: border-box;
+  padding: 50px;
+  color: #fff;
+  gap: 20px;
+  .item {
+    cursor: pointer;
+  }
+}

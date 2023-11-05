@@ -1,0 +1,17 @@
+.wrapper{
+  height: 100vh;
+  background-color: #161416;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .content{
+    text-align: center;
+    h1{
+      margin-bottom: 20px;
+    }
+    button{
+      color: #0c090c;
+    }
+  }
+}

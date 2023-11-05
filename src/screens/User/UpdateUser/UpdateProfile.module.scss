@@ -1,0 +1,36 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  .content{
+    width: 50vw;
+    border-left: 1px solid #323232;
+    border-right: 1px solid #323232;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    .button {
+      width: 320px;
+      padding: 15px 20px;
+      font-size: 20px;
+    }
+    >form {
+      width: 20vw;
+      height: 600px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #323232;
+      border-radius: 10px;
+      .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+      }
+    }
+  }
+}

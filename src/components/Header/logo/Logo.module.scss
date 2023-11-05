@@ -1,0 +1,15 @@
+.wrapper{
+	font-size: 32px;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	border-right: 1px solid #323232;
+	width: 400px;
+	height: 100px;
+	cursor: pointer;
+	svg{	
+		font-size: 40px;
+	}
+}

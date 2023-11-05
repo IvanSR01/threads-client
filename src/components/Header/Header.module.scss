@@ -1,0 +1,22 @@
+.header{
+	position: sticky;
+	top: 0;
+	z-index: 20;
+	background-color: #161416;
+	border-bottom: 1px solid #323232;
+	color: #fff;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	.buttons {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+		width: 400px;
+		height: 100px;
+		.button{
+			padding: 10px 20px;
+		}
+	}
+}

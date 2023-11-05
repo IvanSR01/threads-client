@@ -1,0 +1,18 @@
+.wrapper{
+	box-sizing: border-box;
+	padding: 20px 40px;
+	font-size: 20px;
+	border-radius: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	transition: filter 0.5s;
+	cursor: pointer;
+}
+.wrapper:hover{
+	filter: brightness(70%);
+}
+
+.wrapper[disabled]:hover{
+	filter: none;
+}

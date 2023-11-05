@@ -1,0 +1,24 @@
+.wrapper{
+  padding: 40px;
+  box-sizing: border-box;
+  width: 50vw;
+  border-left: 1px solid #323232;
+  border-right: 1px solid #323232;
+  color: #fff;
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .items {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}

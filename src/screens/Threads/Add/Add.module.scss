@@ -1,0 +1,42 @@
+.content {
+  border-left: 1px solid #323232;
+  border-right: 1px solid #323232;
+  min-height: 100vh;
+  width: 50vw;
+  box-sizing: border-box;
+  color: #ffffff;
+  padding: 50px 20px;
+  > h2 {
+    padding-left: 30px;
+    font-size: 35px;
+  }
+  .img{
+    margin-top: 20px;
+    margin-left: 60px;
+    display: flex;
+    gap: 70px;
+  }
+  .imgButton {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .form {
+    margin-top: 20px;
+  }
+  form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    .inputContent {
+      width: 45vw;
+    }
+  }
+  .thread{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
