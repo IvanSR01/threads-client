@@ -7,7 +7,7 @@ import Img from './Img'
 const Images: FC<IImages> = ({ imgs }) => {
 	return (
 		<div style={{ marginTop: '20px'}}>
-			{imgs.length ? (
+			{imgs?.length ? (
 				<>
 					{imgs.map((item, i) => (
 						<span>

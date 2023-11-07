@@ -10,6 +10,7 @@ import { toast } from 'react-toastify'
 import { toggleLike } from '@/store/action/thread.action'
 import Images from './Images/Images'
 import clsx from 'clsx'
+import { useRouter } from 'next/router'
 
 const Thread: FC<IThreadUi> = ({
 	_id,
@@ -23,6 +24,7 @@ const Thread: FC<IThreadUi> = ({
 	className
 }) => {
 	const isLike = useActiveState({ ids: _id, type: 'like' })
+	const { push } = useRouter()
 	const { useAppDispatch } = useAction()
 	const dispatch = useAppDispatch()
 	const url = {
@@ -69,7 +71,7 @@ const Thread: FC<IThreadUi> = ({
 								onClick={() => onClickLike()}
 								className={isLike && styles.active}
 							/>
-							<FaRegComment />
+							<FaRegComment onClick={() => push(`/fullThread/${_id}`)} />
 						</div>
 						<div className={styles.row__two}>
 							<div className={styles.item}>

@@ -14,5 +14,8 @@ export interface IUserPage {
 	threads: IThread[]
 }
 
-export interface IProfile {
+export interface IProfile {}
+
+export interface IFullThread {
+	thread: IThread
 }

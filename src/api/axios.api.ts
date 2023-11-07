@@ -1,4 +1,3 @@
-import Cookie from 'js-cookie'
 import axios from 'axios'
 import { API_URL, getTokens, removeTokens } from './tokens.api'
 import { useError } from '@/hook'

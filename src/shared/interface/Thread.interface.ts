@@ -1,4 +1,5 @@
 import { IUser } from '@/shared/interface/User.interface'
+import { IComment } from '@/shared/interface/Comment.interface'
 
 export interface IThread {
 	_id: string
@@ -6,7 +7,7 @@ export interface IThread {
 	content: string
 	imgs: string[]
 	like: number
-	comment: any[]
+	comment: IComment[]
 	status: 'mount' | 'update'
 }
 export interface ICreate {

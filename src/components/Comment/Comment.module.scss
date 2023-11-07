@@ -1,0 +1,34 @@
+.wrapper {
+  background-color: transparent;
+  border: 1px solid #323232;
+  padding: 20px;
+  border-radius: 20px;
+  width: 50vw;
+  .main {
+    display: flex;
+    height: 85%;
+    gap: 10px;
+    .authorAndStatus {
+      display: flex;
+      justify-content: space-between;
+      width: 40vw;
+      font-weight: bold;
+      padding-right: 20px;
+    }
+    .img {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      min-width: 50px;
+      width: 50px;
+      img {
+        border-radius: 100%;
+      }
+
+    }
+    .thread {
+      line-height: 30px;
+      word-break: break-all;
+    }
+  }
+}

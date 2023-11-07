@@ -1,13 +1,8 @@
-import { FC } from 'react'
-import { toast } from 'react-toastify'
 import Layout from '@/components/Layout/Layout'
-import styles from './Home.module.scss'
 import Thread from '@/components/thread/Thread'
-import { useAuth, useError, useToastyError } from '@/hook'
-import { useQuery } from '@tanstack/react-query'
-import ThreadService from '@/services/thread/Thread.service'
-import { IThread } from '@/shared/interface/Thread.interface'
 import { IHome } from '@/shared/interface/Page.interface'
+import { FC } from 'react'
+import styles from './Home.module.scss'
 
 
 const Home: FC<IHome> = ({ threads }) => {

@@ -7,7 +7,7 @@ import { THREADS } from '@/services/thread/Thread.service'
 class GettingThreadService {
 
 	async getThreadsById(id:string | undefined): Promise<AxiosResponse<IThread>> {
-		return await instance<IThread>({
+		return await $axios<IThread>({
 			url: `${THREADS}/byId/${id}`,
 			method: 'get'
 		})
